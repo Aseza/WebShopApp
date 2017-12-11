@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.3.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
+
+	<mvc:resources mapping="/resources/**" location="resources/" />
+	<mvc:annotation-driven ignore-default-model-on-redirect="true" />
+	<context:annotation-config/>
+
+	<context:component-scan base-package="classes"></context:component-scan>
+	<context:component-scan base-package="controllers"></context:component-scan>
+	<context:component-scan base-package="generated.wsdl"></context:component-scan>
+
+
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+		id="viewResolver">
+		<property name="prefix" value="/WEB-INF/pages/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+
+	<bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller" id="marshallerCreation">
+		<property name="contextPath" value="generated.wsdl"></property>
+	</bean>
+	<bean class="classes.ExchangeGetter" id="ExchangeRateServiceBean">
+		<property name="defaultUri"
+			value="http://www.mnb.hu/webservices/MNBArfolyamServiceSoap/GetCurrentExchangeRates" />
+		<property name="marshaller" ref="marshallerCreation" />
+		<property name="unmarshaller" ref="marshallerCreation" />
+	</bean>
+
+</beans>
