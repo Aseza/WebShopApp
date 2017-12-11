@@ -7,14 +7,14 @@
 	5)there is a CheckBox at the bottom of the ‘render’ page to show the corresponding values in EUR.
 	6) Focus was more on functionality, less on design, second page is not quite responsive.
   7) prices are distributed as following :<br/>
- +--+--+--+--+--+--+--+--+--+--+--+--+--+ <br/>
-| Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Price&nbsp; |MegaPack Available &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|  <br/>
-+--+--+--+--+--+--+--+--+--+--+--+--+--+ <br/>
-| Salami&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 2000 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        |   
-+--+--+--+--+--+--+--+--+--+--+--+--+--+  <br/>
-| Toy Car&nbsp;&nbsp;&nbsp;| 2800 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        |    <br/>
-+--+--+--+--+--+--+--+--+--+--+--+--+--+  <br/>
-| Cucmber&nbsp;| 2800 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        |    <br/>
-+--+--+--+--+--+--+--+--+--+--+--+--+--+  <br/>
-| Chestnut&nbsp;| 1000 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        |    <br/>
-+--+--+--+--+--+--+--+--+--+--+--+--+--+  <br/>
++----------+----------+-------------------+<br/>
+| Name    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | MegaPack Discount <br/>
++----------+----------+-------------------+<br/>
+| Salami   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2000 HUF|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No  <br/>
++----------+----------+-------------------+<br/>
+| Toy Car  &nbsp;&nbsp;&nbsp; | 3000 HUF |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No<br/>
++----------+----------+-------------------+<br/>
+| Cucumber | 2800 HUF|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes    <br/>
++----------+----------+-------------------+<br/>
+| Chestnut&nbsp; | 1000 HUF | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes <br/>
++----------+----------+-------------------+<br/>
