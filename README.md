@@ -8,9 +8,9 @@
 	6) Focus was more on functionality, less on design, second page is not quite responsive.
   7) prices are distributed as following :<br/>
 +----------+----------+-------------------+<br/>
-| Name    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | MegaPack Discount <br/>
+|#Name    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | #Price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | #MegaPack Discount <br/>
 +----------+----------+-------------------+<br/>
-| Salami   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2000 HUF|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No  <br/>
+|Salami   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2000 HUF|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No  <br/>
 +----------+----------+-------------------+<br/>
 | Toy Car  &nbsp;&nbsp;&nbsp; | 3000 HUF |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No<br/>
 +----------+----------+-------------------+<br/>
